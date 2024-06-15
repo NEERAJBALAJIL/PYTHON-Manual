@@ -1,0 +1,13 @@
+def remove_chars(s1, s2):
+    result = ""
+    for char in s1:
+        if char not in s2:
+            result += char
+    return result
+
+# Get input from user
+s1 = input()
+s2 = input()
+
+# Output
+print(remove_chars(s1, s2))
