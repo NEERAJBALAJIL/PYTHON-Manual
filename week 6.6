@@ -1,0 +1,15 @@
+def find_distinct_elements(array):
+    distinct_elements = set(array)
+    return distinct_elements
+
+# Input array length
+n = int(input())
+
+# Input array elements
+array = [int(input()) for _ in range(n)]
+
+# Find distinct elements
+distinct_elements = find_distinct_elements(array)
+
+# Print the distinct elements
+print(*distinct_elements)
